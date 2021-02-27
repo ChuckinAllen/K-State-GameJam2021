@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-02-27T00:50:03.581-06:00
+  initializedAtString: 2021-02-27T00:49:52.023-06:00
+  entries:
+  - path: Place Holder\Assets\Plugins.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\ArtifactDB
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\Artifacts\51\51e793ed9bb861ee5ea8012ef31659fe
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\Artifacts\51\51e793ed9bb861ee5ea8012ef31659fe
+    projectPath: Library\Artifacts\51\51e793ed9bb861ee5ea8012ef31659fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\Artifacts\92\92e19ed43e9eb9b0f63d7dba71e0a109
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\Artifacts\92\92e19ed43e9eb9b0f63d7dba71e0a109
+    projectPath: Library\Artifacts\92\92e19ed43e9eb9b0f63d7dba71e0a109
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\Artifacts\c7\c7a1384dc67170b20f881a82746b45aa
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\Artifacts\c7\c7a1384dc67170b20f881a82746b45aa
+    projectPath: Library\Artifacts\c7\c7a1384dc67170b20f881a82746b45aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\Artifacts\e0\e0873e77d792ce4d877ff67dbfa1b1bf
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\Artifacts\e0\e0873e77d792ce4d877ff67dbfa1b1bf
+    projectPath: Library\Artifacts\e0\e0873e77d792ce4d877ff67dbfa1b1bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\Artifacts\fa\fa2b83ad1d12bf8ff42595bd6e98f3d3
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\Artifacts\fa\fa2b83ad1d12bf8ff42595bd6e98f3d3
+    projectPath: Library\Artifacts\fa\fa2b83ad1d12bf8ff42595bd6e98f3d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Place Holder\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Library\SourceAssetDB
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Place Holder\Temp\UnityTempFile-4ffe7f8d5509cb04bb948703500496a2
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-4ffe7f8d5509cb04bb948703500496a2
+    projectPath: Temp\UnityTempFile-4ffe7f8d5509cb04bb948703500496a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-5dffaf33953781b44a4c426663595f7b
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-5dffaf33953781b44a4c426663595f7b
+    projectPath: Temp\UnityTempFile-5dffaf33953781b44a4c426663595f7b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-6d06913874f88a440801600cd209c10f
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-6d06913874f88a440801600cd209c10f
+    projectPath: Temp\UnityTempFile-6d06913874f88a440801600cd209c10f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-6d6bb01d6769ed04fb507cd5f031918a
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-6d6bb01d6769ed04fb507cd5f031918a
+    projectPath: Temp\UnityTempFile-6d6bb01d6769ed04fb507cd5f031918a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-940105bd32e9b1d489316d7a8920bf7e
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-940105bd32e9b1d489316d7a8920bf7e
+    projectPath: Temp\UnityTempFile-940105bd32e9b1d489316d7a8920bf7e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-978edec6c902def47900f88548ec05de
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-978edec6c902def47900f88548ec05de
+    projectPath: Temp\UnityTempFile-978edec6c902def47900f88548ec05de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-9a70a63cf5b018e449809edefd37c87f
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-9a70a63cf5b018e449809edefd37c87f
+    projectPath: Temp\UnityTempFile-9a70a63cf5b018e449809edefd37c87f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-ad4be89dfba471142bc3a15758bb7a08
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-ad4be89dfba471142bc3a15758bb7a08
+    projectPath: Temp\UnityTempFile-ad4be89dfba471142bc3a15758bb7a08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-b18e5bd2c4a4aa04a89395b83e545e23
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-b18e5bd2c4a4aa04a89395b83e545e23
+    projectPath: Temp\UnityTempFile-b18e5bd2c4a4aa04a89395b83e545e23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-ba8a43442e231484e9e20f157867998e
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-ba8a43442e231484e9e20f157867998e
+    projectPath: Temp\UnityTempFile-ba8a43442e231484e9e20f157867998e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-e0a16d8778e982841b9358bfe276e615
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-e0a16d8778e982841b9358bfe276e615
+    projectPath: Temp\UnityTempFile-e0a16d8778e982841b9358bfe276e615
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-f236256af2f7e0543ad90a3ad71918d7
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-f236256af2f7e0543ad90a3ad71918d7
+    projectPath: Temp\UnityTempFile-f236256af2f7e0543ad90a3ad71918d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Place Holder\Temp\UnityTempFile-fdfba49cb753d774abffaa9681917a47
+    fullPath: C:\Users\Cole\Documents\GitHub\K-State-Game-Jam2021\Place Holder\Temp\UnityTempFile-fdfba49cb753d774abffaa9681917a47
+    projectPath: Temp\UnityTempFile-fdfba49cb753d774abffaa9681917a47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
