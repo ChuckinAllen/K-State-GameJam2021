@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public float reducedJumpHeight = 1.5f;
     public float jumpSpeed = 60f;
     private float jumpTimer = 61f;
 
@@ -25,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
@@ -37,9 +38,17 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && isGrounded && jumpTimer > 60)
+        if (Input.GetButtonDown("Jump") && isGrounded && jumpTimer > 60)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            bool rayHit = Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z), Vector3.up, 1000, ~(1 << 9));
+            float tempJumpHeight = jumpHeight;
+            if (rayHit)
+            {
+                tempJumpHeight = reducedJumpHeight;
+                //Debug.Log("Cant jump under roof");
+
+            }
+            velocity.y = Mathf.Sqrt(tempJumpHeight * -2f * gravity);
             jumpTimer = 0;
         }
         jumpTimer += jumpSpeed * Time.deltaTime;
@@ -49,3 +58,4 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 }
+
