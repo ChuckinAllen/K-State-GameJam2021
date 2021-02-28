@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 16
+=======
+  controlID: 100
+>>>>>>> BugTest
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +223,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 21
+=======
+  controlID: 63
+>>>>>>> BugTest
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +252,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 22
+=======
+  controlID: 38
+>>>>>>> BugTest
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,9 +361,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 1c350000
     m_LastClickedID: 13596
     m_ExpandedIDs: 0000000000ca9a3b
+=======
+    m_SelectedIDs: fc340000
+    m_LastClickedID: 13564
+    m_ExpandedIDs: 0000000024350000
+>>>>>>> BugTest
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +397,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000
+=======
+    m_ExpandedIDs: 0000000024350000
+>>>>>>> BugTest
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,9 +524,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: e8330000
       m_LastClickedID: 13288
       m_ExpandedIDs: 68fbffff
+=======
+      m_SelectedIDs: 22340000
+      m_LastClickedID: 13346
+      m_ExpandedIDs: c8f7ffff
+>>>>>>> BugTest
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +592,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 2.409779, y: 0.19410717, z: -2.74809}
+    speed: 2
+    m_Value: {x: 2.409779, y: 0.19410717, z: -2.74809}
+>>>>>>> BugTest
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,11 +646,19 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
+=======
+    m_Target: {x: 0.21744207, y: 0.30293825, z: -0.07114079, w: 0.92522883}
+    speed: 2
+    m_Value: {x: 0.21753092, y: 0.30152565, z: -0.07080881, w: 0.92560726}
+  m_Size:
+    m_Target: 1.2837176
+>>>>>>> BugTest
     speed: 2
     m_Value: 10
   m_Ortho:
