@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class ParentMove : MonoBehaviour
@@ -17,12 +18,28 @@ public class ParentMove : MonoBehaviour
     private bool lookingAround;
     public float searchTimer = 0;
 
+    [SerializeField] GameObject text;
+    [SerializeField] float timer = 5;
+
     // Start is called before the first frame update
     void Start()
     {
         lookingAround = false;
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Body")
+        {
+            text.SetActive(true);
 
+            StartCoroutine(ReloadLevels());
+        }
+    }
+    private IEnumerator ReloadLevels()
+    {
+        yield return new WaitForSeconds(timer);
+        SceneManager.LoadScene(0);
+    }
     // Update is called once per frame
     void Update()
     {
