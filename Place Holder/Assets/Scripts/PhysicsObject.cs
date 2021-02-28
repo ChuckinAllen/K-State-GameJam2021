@@ -9,11 +9,17 @@ public class PhysicsObject : MonoBehaviour
     public float breakForce = 35f;
     [HideInInspector] public bool pickedUp = false;
     [HideInInspector] public PlayerInteractions playerInteractions;
+    
+   
+
+    
 
     private void Start()
     {
         
+       
     }
+
 
     private void OnCollisionEnter(Collision collision)
     {
