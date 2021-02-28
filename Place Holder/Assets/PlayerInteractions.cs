@@ -27,7 +27,7 @@ public class PlayerInteractions : MonoBehaviour
     [Header("Rotation")]
     public float rotationSpeed = 100f;
     Quaternion lookRot;
-     
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -45,7 +45,7 @@ public class PlayerInteractions : MonoBehaviour
     {
         raycastPos = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
-        if(Physics.SphereCast(raycastPos, sphereCastRadius, mainCamera.transform.forward, out hit, maxDistance, 1 << interactableLayerIndex))
+        if (Physics.SphereCast(raycastPos, sphereCastRadius, mainCamera.transform.forward, out hit, maxDistance, 1 << interactableLayerIndex))
         {
             lookObject = hit.collider.transform.root.gameObject;
         }
@@ -56,14 +56,14 @@ public class PlayerInteractions : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if(currentlyPickedUpObject == null)
+            if (currentlyPickedUpObject == null)
             {
-                if(lookObject != null)
+                if (lookObject != null)
                 {
                     PickUpObject();
                 }
             }
-            else if(currentlyPickedUpObject != null)
+            else if (currentlyPickedUpObject != null)
             {
                 ThrowObject();
             }
@@ -77,7 +77,7 @@ public class PlayerInteractions : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(currentlyPickedUpObject != null)
+        if (currentlyPickedUpObject != null)
         {
             currentDistance = Vector3.Distance(pickupParent.position, pickupRB.position);
             currentSpeed = Mathf.SmoothStep(minSpeed, maxSpeed, currentDistance / maxDistance);
@@ -120,3 +120,4 @@ public class PlayerInteractions : MonoBehaviour
 
 
 }
+
