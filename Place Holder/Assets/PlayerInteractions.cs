@@ -37,7 +37,7 @@ public class PlayerInteractions : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(pickupParent.position, 0.5f);
+        Gizmos.DrawSphere(pickupParent.position, 0.25f);
     }
 
     // Update is called once per frame
@@ -94,7 +94,7 @@ public class PlayerInteractions : MonoBehaviour
     public void ThrowObject()
     {
         pickupRB.constraints = RigidbodyConstraints.None;
-        pickupRB.AddForce(mainCamera.transform.forward * 1000);
+        pickupRB.AddForce(mainCamera.transform.forward * 250);
         currentlyPickedUpObject = null;
         physicsObject.pickedUp = false;
         currentDistance = 0;
