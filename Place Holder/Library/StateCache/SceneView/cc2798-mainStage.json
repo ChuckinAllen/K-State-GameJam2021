@@ -1,5 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":-0.08717229217290878,"y":0.8995905518531799,"z":-0.21045254170894624,"w":-0.37262260913848879},"size":10.0,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.0284900665283205,"y":-3.9234681129455568,"z":-7.667784214019775},"rotation":{"x":-0.016543662175536157,"y":-0.9480105638504028,"z":0.3139621615409851,"w":-0.050076358020305637},"size":4.987709045410156,"orthographic":false}
 >>>>>>> parent of c57945f (Dummy)
+=======
+<<<<<<< Updated upstream
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.0284900665283205,"y":-3.9234681129455568,"z":-7.667784214019775},"rotation":{"x":-0.016543662175536157,"y":-0.9480105638504028,"z":0.3139621615409851,"w":-0.050076358020305637},"size":4.987709045410156,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":1.322390079498291,"y":4.050367832183838,"z":0.31875327229499819},"rotation":{"x":-0.06404905021190644,"y":-0.8411909341812134,"z":0.5271782279014587,"w":-0.10246041417121887},"size":10.0,"orthographic":false}
+>>>>>>> Stashed changes
+>>>>>>> parent of f3a4517 (Dummy)
