@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -252,6 +252,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2705938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2705934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b81f8ba3abfb3499db30afcbc4a6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - {fileID: 8300000, guid: f014420107a993949847123f16942c4c, type: 3}
+  - {fileID: 8300000, guid: deffdef7b138834469c76f7f35fc70cd, type: 3}
+  - {fileID: 8300000, guid: 6d5eb5d6f1cc6f349aa42c405ff7e93a, type: 3}
+  - {fileID: 8300000, guid: 66be401675c034342a70131d33877c52, type: 3}
 --- !u!114 &2705940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,11 +285,6 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
-  CanSounds:
-  - {fileID: 8300000, guid: c846ba7ba5f2c024ca21db7a99b7b525, type: 3}
-  - {fileID: 8300000, guid: c1bc6a197ff5e0547b40a58082f9b65a, type: 3}
-  - {fileID: 8300000, guid: e50ad448e426f1a448b02c2aa44cfe82, type: 3}
-  - {fileID: 8300000, guid: 8359d178eadc4a6439aceefd0a1a5ac7, type: 3}
 --- !u!1 &330509151
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,7 +509,7 @@ MonoBehaviour:
   lookObject: {fileID: 0}
   pickupParent: {fileID: 2066344637}
   currentlyPickedUpObject: {fileID: 0}
-  minSpeed: 0
+  minSpeed: 100
   maxSpeed: 300
   maxDistance: 10
   rotationSpeed: 100
@@ -864,7 +876,6 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
-  CanSounds: []
 --- !u!1001 &618853622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2195,7 +2206,6 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
-  CanSounds: []
 --- !u!135 &1758595080
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2414,7 +2424,6 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
-  CanSounds: []
 --- !u!114 &1867618944 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1127217930061198083, guid: c6c863ee1c13c704bb0b68420adf0bc7,
