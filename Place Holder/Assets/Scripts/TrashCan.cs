@@ -37,7 +37,7 @@ public class TrashCan : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Interactable"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Interactable") && other.gameObject.tag != "Body")
         {
             trash.Add(other.gameObject, 0);
 
