@@ -39,7 +39,7 @@ public class PhysicsObject : MonoBehaviour
     private void PlayCan()
     {
         int n = Random.Range(0, CanSounds.Length);
-        can.clip = CanSounds[n];
-        can.PlayOneShot(can.clip);
+        //can.clip = CanSounds[n];
+        //can.PlayOneShot(can.clip);
     }
 }
