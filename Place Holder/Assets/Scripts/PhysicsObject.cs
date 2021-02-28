@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sound.CanController;
 
 public class PhysicsObject : MonoBehaviour
 {
@@ -8,13 +9,15 @@ public class PhysicsObject : MonoBehaviour
     public float breakForce = 35f;
     [HideInInspector] public bool pickedUp = false;
     [HideInInspector] public PlayerInteractions playerInteractions;
-    [SerializeField] private AudioClip[] CanSounds;
+    
+   
 
-    private AudioSource can;
+    
 
     private void Start()
     {
-        can = GetComponent<AudioSource>();
+        
+       
     }
 
 
@@ -27,7 +30,7 @@ public class PhysicsObject : MonoBehaviour
                 playerInteractions.BreakConnection();
             }
         }
-        PlayCan();
+        
     }
 
     public IEnumerator PickUp()
@@ -36,10 +39,5 @@ public class PhysicsObject : MonoBehaviour
         pickedUp = true;
     }
 
-    private void PlayCan()
-    {
-        int n = Random.Range(0, CanSounds.Length);
-        //can.clip = CanSounds[n];
-        //can.PlayOneShot(can.clip);
-    }
+    
 }
