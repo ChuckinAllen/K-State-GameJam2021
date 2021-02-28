@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public float jumpSpeed = 60f;
+    private float jumpTimer = 61f;
 
     public Transform groundCheck;
     public float groundDistance = 0.8f;
@@ -35,10 +37,12 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump") && isGrounded && jumpTimer > 60)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            jumpTimer = 0;
         }
+        jumpTimer += jumpSpeed * Time.deltaTime;
 
         velocity.y += gravity * Time.deltaTime;
 
