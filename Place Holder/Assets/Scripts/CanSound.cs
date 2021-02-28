@@ -26,21 +26,22 @@ namespace Sound.CanController
 
         }
 
+        private void OnCollisionEnter(Collision collision)
+        {
+            PlayCan();
+        }
 
-
-        void PlayCan()
+        public void PlayCan()
         {
             int n = Random.Range(0, list.Length);
             can.clip = list[n];
             can.PlayOneShot(can.clip);
+            
 
 
         }
 
-        public static void Trigger(CanSound c)
-        {
-            if (c != null) c.PlayCan();
-        }
+        
 
     }
 }
