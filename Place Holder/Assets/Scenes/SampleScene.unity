@@ -542,6 +542,10 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  CanSounds: []
+>>>>>>> Stashed changes
 --- !u!1 &625070472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,6 +1664,10 @@ MonoBehaviour:
   breakForce: 35
   pickedUp: 0
   playerInteractions: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  CanSounds: []
+>>>>>>> Stashed changes
 --- !u!1 &1861729123
 GameObject:
   m_ObjectHideFlags: 0
