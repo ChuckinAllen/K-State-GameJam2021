@@ -17,13 +17,10 @@ namespace Sound.CanController
         public AudioClip[] list;
 
 
-
         // Start is called before the first frame update
         void Start()
         {
             can = GetComponent<AudioSource>();
-
-
         }
 
         private void OnCollisionEnter(Collision collision)
